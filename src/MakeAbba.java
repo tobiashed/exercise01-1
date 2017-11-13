@@ -1,8 +1,6 @@
 
 public class MakeAbba {
-	public String makeAbba(String a, String b) {
-		String result = "";
-		result = a + b + b + a;
-		return result;
+	public String abba(String a, String b) {
+		return a + b + b + a;
 	}
 }
